@@ -1,0 +1,91 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="EmbeddedResources\Scripts\common.js" />
+    <None Remove="EmbeddedResources\Widgets\Captcha\CaptchaWidget.js" />
+    <None Remove="EmbeddedResources\Widgets\Captcha\img\refresh.png" />
+    <None Remove="EmbeddedResources\Widgets\DatePicker\css\highlight.css" />
+    <None Remove="EmbeddedResources\Widgets\DatePicker\css\jquery-ui.css" />
+    <None Remove="EmbeddedResources\Widgets\DatePicker\css\jquery.calendars.picker.css" />
+    <None Remove="EmbeddedResources\Widgets\DatePicker\css\ui-hot-sneaks.calendars.picker.css" />
+    <None Remove="EmbeddedResources\Widgets\DatePicker\css\ui.calendars.picker.css" />
+    <None Remove="EmbeddedResources\Widgets\DatePicker\DatePickerWidget.js" />
+    <None Remove="EmbeddedResources\Widgets\DatePicker\js\jquery.calendars-ar.js" />
+    <None Remove="EmbeddedResources\Widgets\DatePicker\js\jquery.calendars.js" />
+    <None Remove="EmbeddedResources\Widgets\DatePicker\js\jquery.calendars.picker-ar.js" />
+    <None Remove="EmbeddedResources\Widgets\DatePicker\js\jquery.calendars.picker.js" />
+    <None Remove="EmbeddedResources\Widgets\DatePicker\js\jquery.calendars.plus.js" />
+    <None Remove="EmbeddedResources\Widgets\DatePicker\js\jquery.calendars.ummalqura-ar.js" />
+    <None Remove="EmbeddedResources\Widgets\DatePicker\js\jquery.calendars.ummalqura.js" />
+    <None Remove="EmbeddedResources\Widgets\DatePicker\js\jquery.plugin.js" />
+    <None Remove="EmbeddedResources\Widgets\Dropdown\css\select2-bootstrap4.min.css" />
+    <None Remove="EmbeddedResources\Widgets\Dropdown\css\select2.min.css" />
+    <None Remove="EmbeddedResources\Widgets\Dropdown\DropDownWidget.js" />
+    <None Remove="EmbeddedResources\Widgets\Dropdown\js\i18n\ar.js" />
+    <None Remove="EmbeddedResources\Widgets\Dropdown\js\i18n\en.js" />
+    <None Remove="EmbeddedResources\Widgets\Dropdown\js\select2.full.min.js" />
+    <None Remove="EmbeddedResources\Widgets\TelInput\css\intlTelInput.css" />
+    <None Remove="EmbeddedResources\Widgets\TelInput\img\flags%402x.png" />
+    <None Remove="EmbeddedResources\Widgets\TelInput\img\flags.png" />
+    <None Remove="EmbeddedResources\Widgets\TelInput\IntTelInputWidget.js" />
+    <None Remove="EmbeddedResources\Widgets\TelInput\js\intlTelInput.min.js" />
+    <None Remove="EmbeddedResources\Widgets\TelInput\js\libphonenumber.utils.js" />
+    <None Remove="EmbeddedResources\Widgets\Uploader\FileUploaderWidget.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="EmbeddedResources\Scripts\common.js" />
+    <EmbeddedResource Include="EmbeddedResources\Widgets\Captcha\CaptchaWidget.js" />
+    <EmbeddedResource Include="EmbeddedResources\Widgets\Captcha\img\refresh.png" />
+    <EmbeddedResource Include="EmbeddedResources\Widgets\DatePicker\css\highlight.css" />
+    <EmbeddedResource Include="EmbeddedResources\Widgets\DatePicker\css\jquery-ui.css" />
+    <EmbeddedResource Include="EmbeddedResources\Widgets\DatePicker\css\jquery.calendars.picker.css" />
+    <EmbeddedResource Include="EmbeddedResources\Widgets\DatePicker\css\ui-hot-sneaks.calendars.picker.css" />
+    <EmbeddedResource Include="EmbeddedResources\Widgets\DatePicker\css\ui.calendars.picker.css" />
+    <EmbeddedResource Include="EmbeddedResources\Widgets\DatePicker\DatePickerWidget.js" />
+    <EmbeddedResource Include="EmbeddedResources\Widgets\DatePicker\js\jquery.calendars-ar.js" />
+    <EmbeddedResource Include="EmbeddedResources\Widgets\DatePicker\js\jquery.calendars.js" />
+    <EmbeddedResource Include="EmbeddedResources\Widgets\DatePicker\js\jquery.calendars.picker-ar.js" />
+    <EmbeddedResource Include="EmbeddedResources\Widgets\DatePicker\js\jquery.calendars.picker.js" />
+    <EmbeddedResource Include="EmbeddedResources\Widgets\DatePicker\js\jquery.calendars.plus.js" />
+    <EmbeddedResource Include="EmbeddedResources\Widgets\DatePicker\js\jquery.calendars.ummalqura-ar.js" />
+    <EmbeddedResource Include="EmbeddedResources\Widgets\DatePicker\js\jquery.calendars.ummalqura.js" />
+    <EmbeddedResource Include="EmbeddedResources\Widgets\DatePicker\js\jquery.plugin.js" />
+    <EmbeddedResource Include="EmbeddedResources\Widgets\Dropdown\css\select2-bootstrap4.min.css" />
+    <EmbeddedResource Include="EmbeddedResources\Widgets\Dropdown\css\select2.min.css" />
+    <EmbeddedResource Include="EmbeddedResources\Widgets\Dropdown\DropDownWidget.js" />
+    <EmbeddedResource Include="EmbeddedResources\Widgets\Dropdown\js\i18n\ar.js" />
+    <EmbeddedResource Include="EmbeddedResources\Widgets\Dropdown\js\i18n\en.js" />
+    <EmbeddedResource Include="EmbeddedResources\Widgets\Dropdown\js\select2.full.min.js" />
+    <EmbeddedResource Include="EmbeddedResources\Widgets\TelInput\css\intlTelInput.css" />
+    <EmbeddedResource Include="EmbeddedResources\Widgets\TelInput\img\flags.png" />
+    <EmbeddedResource Include="EmbeddedResources\Widgets\TelInput\img\flags@2x.png" />
+    <EmbeddedResource Include="EmbeddedResources\Widgets\TelInput\IntTelInputWidget.js" />
+    <EmbeddedResource Include="EmbeddedResources\Widgets\TelInput\js\intlTelInput.min.js" />
+    <EmbeddedResource Include="EmbeddedResources\Widgets\TelInput\js\libphonenumber.utils.js" />
+    <EmbeddedResource Include="EmbeddedResources\Widgets\Uploader\FileUploaderWidget.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.TagHelpers" Version="2.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="2.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor" Version="2.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Runtime" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Framework.Core\Framework.Core.csproj" />
+  </ItemGroup>
+
+</Project>

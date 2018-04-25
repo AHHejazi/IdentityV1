@@ -1,0 +1,18 @@
+﻿{
+ "buildOptions": {
+    "embed": {
+      "include": [
+        "EmbeddedResources/*"
+      ]
+    } 
+  },
+  "frameworks": {
+    "TxM": {}
+  },
+  "runtimes": {
+    "RID": {}
+  },
+  "supports": {
+    "CompatibilityProfile": {}
+  }
+}

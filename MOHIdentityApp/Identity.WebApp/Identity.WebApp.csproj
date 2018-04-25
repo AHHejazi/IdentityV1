@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Shared\_Layout.cshtml" />
+    <None Include="Views\Shared\_LoginPartial.cshtml" />
+    <None Include="Views\Shared\_SelectLanguagePartial.cshtml" />
+    <None Include="Views\Shared\_ValidationScriptsPartial.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.TagHelpers" Version="2.0.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.1" />
+    <PackageReference Include="NToastNotify" Version="5.0.7" />
+    <PackageReference Include="PagedList.Core.Mvc" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Framework.Web\Framework.Web.csproj" />
+    <ProjectReference Include="..\Identity.Loclization\Identity.Loclization.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ExpressiveAnnotations.MvcCoreUnobtrusive">
+      <HintPath>..\DLLS\ExpressiveAnnotations.MvcCoreUnobtrusive.dll</HintPath>
+    </Reference>
+    <Reference Include="ExpressiveAnnotationsCore">
+      <HintPath>..\DLLS\ExpressiveAnnotationsCore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

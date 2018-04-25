@@ -1,0 +1,51 @@
+﻿.calendars-nav, .calendars-ctrl {
+    background-color: #005350 !important
+}
+
+.calendars-cmd:hover {
+    background-color: #007773 !important
+}
+
+.calendars-month {
+    border: 1px solid #00726e !important
+}
+
+.calendars-month-header, .calendars-month-header select, .calendars-month-header input {
+    background-color: #005350 !important
+}
+
+.calendars-month th, .calendars-month th a {
+    background: #404040 !important
+}
+
+.calendars-month th {
+    border: 1px solid #6f6f6f !important
+}
+
+.calendars-month td .calendars-today {
+    background-color: #005350 !important
+}
+
+.calendars * {
+    font-family: "Midan W20" !important
+}
+
+.calendars-nav, .calendars-ctrl {
+    padding: 5px;
+    font-size: 20px !important
+}
+
+.calendars {
+    width: 100% !important;
+    border-radius: 0 !important;
+    border: 1px solid #005350 !important
+}
+
+.calendars-month {
+    width: 100% !important
+}
+
+    .calendars-month a, .calendars-month span {
+        padding: 10px 18px !important;
+        font-size: 20px
+    }
